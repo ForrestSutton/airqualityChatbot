@@ -1,5 +1,6 @@
 #Air Quality ChatBot
-this is a simple app that uses Googe cloud functions to scan a purple air monitor and if the air quaility index is 50 or higher it notifies google chat space  
+this is a simple app that uses Googe cloud functions to scape a json feed from a purple air monitor and if the air quaility index is 50 or higher it notifies google chat space  
+this has only been tested with a purple air quality monitor but it should work on any monitor that produces a json feed
 
 
 steps to use this script
@@ -10,3 +11,7 @@ steps to use this script
 5. create a google scheduler that calls the http address when you need it called
 6. invite your chat users into your new space
 7. profits 
+
+#next steps 
+1. I would like to add a database to store key air quaility measures
+2. I would like to allow chat users to ask simple questions of the bot about air quality and possible weather \
