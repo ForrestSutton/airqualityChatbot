@@ -7,8 +7,7 @@ import os
 
 
 def get_aqi():
-    #URL =  os.environ.get('DATA_URL')
-    URL = 'https://www.purpleair Address'
+    URL =  os.environ.get('DATA_URL')
     r = requests.get(URL)
     j = json.loads(r.text)
 
