@@ -11,8 +11,7 @@ def get_aqi():
     r = requests.get(URL)
     j = json.loads(r.text)
 
-    num = j['results'][0]['PM2_5Value']
-    stats = j['results'][0]['Stats']
+    num = j['sensor']['pm2.5']
     return num
 
 
